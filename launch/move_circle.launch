@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="exam_pkg" type="circle_server.py" name="circle_server_node" output="screen">
+    </node>
+</launch>
