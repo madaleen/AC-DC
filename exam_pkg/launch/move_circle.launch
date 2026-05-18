@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="exam_pkg" type="circle_server.py" name="circle_server_node" output="screen">
+    </node>
+    <node pkg="exam_pkg" type="circle_client.py" name="circle_client_node" output="screen">
+    </node>
+</launch>

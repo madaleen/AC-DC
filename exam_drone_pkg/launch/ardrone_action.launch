@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="exam_drone_pkg" type="ardrone_action_server.py" name="ardrone_action_server_node" output="screen" />
+  <node pkg="exam_drone_pkg" type="ardrone_action_client.py" name="ardrone_action_client_node" output="screen" />
+</launch>
